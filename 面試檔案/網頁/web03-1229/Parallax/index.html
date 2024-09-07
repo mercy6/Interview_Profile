@@ -1,0 +1,120 @@
+<!doctpe html>
+<html>
+	<head>
+	<meta name="author" content="資二B-226-謝承恩">
+		<meta charset="utf-8">
+		<title>Parallax Scrolling</title>
+		<style type="text/css">
+		html, body {
+			height: 100%;
+			margin: 0;
+			font-family: "微軟正黑體";
+			font-size: 18px;
+			line-height: 1.8;
+		}
+		.bgimg01, .bgimg02, .bgimg03 {
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			opacity: 0.6;
+			background-position: center;
+			position: relative;
+		}
+		.bgimg01 {
+			background-image: url(images/img_parallax1.jpg);
+			min-height: 100%;
+		}
+		.bgimg02 {
+			background-image: url(images/img_parallax2.jpg);
+			min-height: 400px;
+		}
+		.bgimg03 {
+			background-image: url(images/img_parallax3.jpg);
+			min-height: 400px;
+		}
+		.caption {
+			left: 0;
+			top: 45%;
+			position: absolute;
+			text-align: center;
+			width: 100%;
+		}
+		.caption span.box {
+			background-color: #111;
+			padding: 20px;
+			color:#fff;
+			font-size: 25px;
+			letter-spacing: 10px;
+			font-weight: bold;
+			opacity: 0.7;
+		}
+		.caption span.box2 {
+			color: #c6ff33;
+			background-color: transparent;
+			text-shadow: 3px 3px #393939;
+			opacity: 0.9;
+		}
+		.text01 {
+			background-color: #e7e7e7;
+			padding: 50px 10%;
+			text-align: justify;
+			color: #777;
+		}
+		.text02, .text03 {
+			background-color: #2a3333;
+			color: #ddd;
+			padding: 50px 10%;
+			text-align: justify;
+		}
+		h3 {
+			text-transform: uppercase;
+			letter-spacing: 5px;
+			font-size: 20px;
+			color: #c6ff33;
+		}
+		.h301 {
+			color: #000;
+			text-align: center;
+		}
+		</style>
+	</head>
+	<body>
+	<div class="bgimg01">
+		<div class="caption">
+			<span class="box">SCROLL DOWN</span>
+		</div><!-- end of caption -->
+	</div><!-- end of bgimg01 -->
+	<div class="text01">
+		<h3 class="h301">Parallax Demo</h3>
+		<p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Parallax scrolling is a technique in computer graphics where background images move by the camera slower than foreground images, creating an illusion of depth in a 2D scene and adding to the immersion. The technique grew out of the multiplane camera technique used in traditional animation since the 1930s. </p>
+		<p>Parallax scrolling was popularized in 2D computer graphics and video games by the arcade games Moon Patrol and Jungle Hunt, both released in 1982. Some parallax scrolling had earlier been used by the 1981 arcade game Jump Bug. There are four main methods of parallax scrolling used in titles for arcade system board, video game console and personal computer systems.</p>
+	</div><!-- end of text01 -->
+	<div class="bgimg02">
+		<div class="caption">
+			<span class="box box2">LESS HEIGHT</span>
+		</div><!-- end of caption -->
+	</div><!-- end of bgimg02 -->
+	<div class="text02">
+	<h3>Sprite method</h3>
+	<p>Programmers may also make pseudo-layers of sprites—individually controllable moving objects drawn by hardware on top of or behind the layers—if they are available on the display system. For instance Star Force, an overhead-view vertically scrolling shooter for NES, used this for its starfield, and Final Fight for the Super NES used this technique for the layer immediately in front of the main playfield. </p>
+	<p>The Amiga computer has sprites which can have any height and can be set horizontal with the copper co-processor, which makes them ideal for this purpose. Risky Woods on the Amiga uses sprites multiplexed with the copper to create an entire fullscreen parallax background layer as an alternative to the system's dual playfield mode.
+</p>
+	</div><!-- end of text02 -->
+	<div class="bgimg03">
+		<div class="caption">
+			<span class="box box2">SCROLL UP</span>
+		</div><!-- end of caption -->
+	</div><!-- end of bgimg03 -->
+	<div class="text03">
+		<h3>Layer method</h3>
+		<p>Some display systems support multiple background layers that can be scrolled independently in horizontal and vertical directions and composited on one another, simulating a multiplane camera. On such a display system, a game can produce parallax by simply changing each layer's position by a different amount in the same direction. 
+</p>
+		<p>Layers that move more quickly are perceived to be closer to the virtual camera. Layers can be placed in front of the playfield—the layer containing the objects with which the player interacts—for various reasons such as to provide increased dimension, obscure some of the action of the game, or distract the player.</p>
+	</div><!-- end of text03 -->
+	<div class="bgimg01">
+		<div class="caption">
+			<span class="box">COOL!</span>
+		</div><!-- end of caption -->
+	</div><!-- end of bgimg01 -->
+	</body>
+</html>

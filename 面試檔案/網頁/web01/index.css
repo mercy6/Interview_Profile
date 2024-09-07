@@ -1,0 +1,90 @@
+		#container {
+			background-color:#cbe3e3;
+			width: 900px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 8px;
+		}
+		#header {
+			background-color:#bfffbf;
+		}
+		.td01{
+			background-image: url(images/bg-white.jpg);
+			background-repeat: repeat-x;
+			font-size: 20px;
+			font-weight: bolder;
+			font-family: Consolas;
+			color: #387f88;
+		}
+		.td02{
+			background-image: url(images/bg-01.jpg);
+		}
+		#menu {
+			background-color:#add6dd;
+			width: 200px;
+			float: left;
+		}
+		.menu01 {
+			padding-left:25px;
+			padding-top:10px;
+			padding-bottom:10px;
+			border-bottom: 1px dotted #387f88;
+		}
+		#content {
+			background-color:#ffffff;
+			width: 660px;
+			float: left;
+			padding: 20px;
+		}
+		#footer {
+			background-color:#ffffbf;
+			clear: both;
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom:10px;
+			background-image:url(images/bg-blue.jpg);
+			color: #ffffff;
+		}
+		body {
+		font-family: "微軟正黑體";
+		background:linear-gradient(to bottom, #bfefff 0%, #64b2bb 15%);
+		/*background:linear-gradient(to top, #bfefff, #64b2bb);*/
+		/*background-color: #2693cc;
+		background-image: url(images/bg.jpg);
+		background-repeat: repeat-x;*/
+		}
+		img{
+			vertical-align: top;
+		}
+		h3{
+			background-image: url(images/bg-02.jpg);
+			background-repeat: repeat-y;
+			color: #387f88;
+			padding-left: 15px;
+			padding-top: 6px;
+			padding-bottom: 6px;
+		}
+		table.mystyle{
+			border-left: 1px solid #387f88;
+			border-bottom: 1px solid #387f88;
+		}
+		.mystyle td{
+			border-top: 1px solid #387f88;
+			border-right: 1px solid #387f88;
+		}
+		a:link {
+			color: #387f88;
+			text-decoration: none;
+		}
+		a:visited {
+			color: #387f88;
+			text-decoration: none;
+		}
+		a:hover {
+			color: #667700;
+			text-decoration: none;
+		}
+		a:active {
+			color: #ff2626;
+			text-decoration: underline;
+		}

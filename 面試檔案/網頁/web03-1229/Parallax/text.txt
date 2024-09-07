@@ -1,0 +1,22 @@
+SCROLL DOWN 
+
+Parallax Demo
+Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Parallax scrolling is a technique in computer graphics where background images move by the camera slower than foreground images, creating an illusion of depth in a 2D scene and adding to the immersion. The technique grew out of the multiplane camera technique used in traditional animation since the 1930s. 
+
+Parallax scrolling was popularized in 2D computer graphics and video games by the arcade games Moon Patrol and Jungle Hunt, both released in 1982. Some parallax scrolling had earlier been used by the 1981 arcade game Jump Bug. There are four main methods of parallax scrolling used in titles for arcade system board, video game console and personal computer systems.
+
+LESS HEIGHT 
+
+Sprite method
+Programmers may also make pseudo-layers of sprites¡Xindividually controllable moving objects drawn by hardware on top of or behind the layers¡Xif they are available on the display system. For instance Star Force, an overhead-view vertically scrolling shooter for NES, used this for its starfield, and Final Fight for the Super NES used this technique for the layer immediately in front of the main playfield. 
+
+The Amiga computer has sprites which can have any height and can be set horizontal with the copper co-processor, which makes them ideal for this purpose. Risky Woods on the Amiga uses sprites multiplexed with the copper to create an entire fullscreen parallax background layer as an alternative to the system's dual playfield mode.
+
+SCROLL UP 
+
+Layer method
+Some display systems support multiple background layers that can be scrolled independently in horizontal and vertical directions and composited on one another, simulating a multiplane camera. On such a display system, a game can produce parallax by simply changing each layer's position by a different amount in the same direction. 
+
+Layers that move more quickly are perceived to be closer to the virtual camera. Layers can be placed in front of the playfield¡Xthe layer containing the objects with which the player interacts¡Xfor various reasons such as to provide increased dimension, obscure some of the action of the game, or distract the player.
+
+COOL! 
