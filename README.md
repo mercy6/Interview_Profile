@@ -7,8 +7,8 @@
 
 ### Python 程式開發
 Python 程式開發資料夾中，包含以下兩個Python腳本：
-- `crawler_pc_home.py`: 此腳本用於爬取PChome購物平台的暢銷排行和熱銷補貨信息。
 - `crawler_weather_city.py`: 此腳本用於爬取台灣所有縣市的天氣數據。
+- `crawler_pc_home.py`: 此腳本用於爬取PChome購物平台的暢銷排行和熱銷補貨信息。
 
 ### 網頁設計
 網頁設計資料夾中包含三個子資料夾，分別是：
